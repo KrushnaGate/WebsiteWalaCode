@@ -241,10 +241,10 @@ function ServicesGrid() {
 
 function PackagesHome({ onGetQuote }: { onGetQuote: () => void }) {
   const pkgs = [
-    { title: "Simple Website", price: "25,000", popular: false },
-    { title: "Business Website", price: "75,000", popular: true },
-    { title: "E-commerce Store", price: "1,50,000", popular: false },
-    { title: "Custom MERN App", price: "3,00,000+", popular: false },
+    { title: "Simple Website", price: "5,999", popular: false },
+    { title: "Business Website", price: "49,000", popular: true },
+    { title: "E-commerce Store", price: "3,50,000", popular: false },
+    { title: "Custom MERN App", price: "5,00,000+", popular: false },
   ];
 
   return (
